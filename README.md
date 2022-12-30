@@ -9,7 +9,7 @@
 
 # Usage
 ## SHA-256
----
+
 * Import some library needed for Hashing
 ```Java
 import java.math.BigInteger;
@@ -67,7 +67,7 @@ Hashed string using SHA-256 with salt = "salt": 3681099918be28c95b81e27e7e5c2e4c
 ```
 
 ## About
----
+
 ### MessageDigest
 * `public abstract class MessageDigest extends MessageDigestSpi`
 * This MessageDigest class provides applications the functionality of a message digest algorithm, such as SHA-1 or SHA-256. Message digests are secure one-way hash functions that take arbitrary-sized data and output a fixed-length hash value.
